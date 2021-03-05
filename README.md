@@ -11,7 +11,7 @@ gcloud sql instances create INSTANCE_NAME --database-version=POSTGRES_12
 gcloud sql databases create [DATABASE_NAME] --instance=[INSTANCE_NAME]
 [--charset=CHARSET] [--collation=COLLATION]
 
-3. Need to Enable Cloud ADMIN API 
+3. Need to Enable Cloud SQL ADMIN API 
 
 PUBSUB TOPIC  AND CLOUD FUNCTION CREATION
 =========================================
