@@ -23,3 +23,17 @@ gcloud functions deploy MY_FUNCTION  --trigger-topic MY_TOPIC  --runtime python3
 gcloud pubsub topics publish MY_TOPIC --message '{ "greeting": "Hello" }'
 
 
+Raw Payload Json:
+
+{
+   "eventId": "BALA NK",
+   "eventType": "AVP",
+   "sourceSystemId": "BALA NK",
+   "sourceSystemName": "AVP",
+   "dataServiceVersionUri": "BALA NK",
+   "snapshotContextTypeCode": "AVP",
+   "blockLabel": "BALA NK",
+   "blockVersion": "AVP",
+   "dataUri": "BALA NK",
+   "metadataUri": "AVP"
+}
